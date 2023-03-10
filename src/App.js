@@ -3,13 +3,12 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 
-
 const App = () => {
   return(
     <div id='app'>
-      <BrowserRouter>
+      <BrowserRouter basename='Portfolio_v1.2'>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route exact path='/' element={<Home />}></Route>
       </Routes>
       </BrowserRouter>
       

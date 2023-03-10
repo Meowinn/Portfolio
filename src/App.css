@@ -9,9 +9,6 @@
     
 }
 
-/* --projText: rgb(97, 95, 95); */
-/* --projText: rgb(61, 70, 85); */
-
 .lightTheme {
   --primary-color: black;
   --secondary-color: white;
@@ -49,7 +46,6 @@ li {
 }
 
 a {
-  /* font-size: 1.5rem; */
   font-size: clamp(0.8rem, 3vw, 1.5rem);
   color: var(--primary-color);
   text-decoration: none;
@@ -97,12 +93,8 @@ a:visited:hover {
 
 
 .animateBg {
-  /* height: 95vh; */
-
   height: 100%;
-
   width: 100%;
-  
 }
 
 .animateBg::before {
@@ -121,9 +113,6 @@ a:visited:hover {
   display: flex;
   align-items: center;
   min-height: 95vh;
-
-  
-
   width: 100%;
   color: var(--primary-color);
   z-index: 3;
@@ -131,10 +120,8 @@ a:visited:hover {
 }
 
 .startText {
-  /* font-size: 5rem; */
-  font-size: clamp(2.5rem, 5vw, 5rem);
-  /* padding: 0 230px 200px 230px; */
-  padding-bottom: 200px;
+  font-size: clamp(2.5rem, 5vw, 3.6rem);
+  padding-bottom: 170px;
   padding-left: min(350px, 10%);
   padding-right: min(350px, 10%);
 }
@@ -149,11 +136,9 @@ a:visited:hover {
 
 .positionText:hover {
   background-size: 173px 30px;
-  
 }
 
 .aboutText {
-  padding-top: 5px;
   font-size: clamp(0.2rem, 3vw, 1.4rem);
   text-align: justify;
   width: 500px;
@@ -181,11 +166,7 @@ a:visited:hover {
   position: relative;
   top: 15px;
   padding: 16px 47px;
-  
-  /* font-size: 1.8rem; */
-  font-size: clamp(1rem, 3vw, 1.8rem);
-
-
+  font-size: clamp(1rem, 3vw, 1.6rem);
   color: var(--primary-color);
   font-weight: 600;
   border: none;
@@ -194,7 +175,6 @@ a:visited:hover {
   transition: transform 0.2s ease-in-out;
   background-color: var(--secondary-color);
   border: 3px solid rgb(241, 106, 65);
-
 }
 
 .dlBtn:hover {
@@ -291,21 +271,16 @@ a:visited:hover {
   }
 
   to {
-    left: 80%;
+    left: 70%;
     opacity: 0;
     transform: translateX(0%);
   }
 }
 
 #skillsSection {
-  /* box-shadow: 0 3px 110px rgb(0 0 0 / 0.2); */
   color: var(--primary-color);
   margin-top: 65px;
-  /* padding: 50px 350px; */
   padding: 50px min(350px, 10%);
-  
-  /* height: 70vh; */
-
   height: 70%;
 
 
@@ -345,7 +320,6 @@ a:visited:hover {
   display: flex;
   justify-content: center;
   padding: 65px 0;
-  /* gap: 300px; */
   gap: min(300px, 20%);
 }
 
@@ -360,13 +334,10 @@ a:visited:hover {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  
-  /* font-size: 1.3rem; */
   font-size: clamp(0.8rem, 3vw, 1.3rem);
 }
 
 .skillImgs {
-  /* width: 120px; */
   width: clamp(20px, 5vw, 120px);  
 
 
@@ -382,10 +353,8 @@ a:visited:hover {
   box-shadow: 0 102px 130px #0b1318;
   color: black;
   background-color: var(--tertiary-color);
-  /* height: 100vh; */
   height: 100%;
   color: var(--primary-color);
-  /* padding: 50px 350px; */
   padding: 50px min(350px, 10%);
 }
 
@@ -395,7 +364,6 @@ a:visited:hover {
 }
 
 .projDescrip {
-  /* font-size: 2.8rem; */
   font-size: clamp(1rem, 3vw, 2.8rem);
   color: rgb(241, 106, 65);
   padding-bottom: 50px;
@@ -406,20 +374,13 @@ a:visited:hover {
   justify-content: center;
   align-items: center;
   background-color: var(--tertiary-color);
-  
-  /* padding: 15px 0; */
-
   padding: 15px 30px;
-
-  /* gap: 110px; */
   gap: min(110px, 5%);
 
 }
 
 .projWrapper {
-  /* width: 430px; */
   width: min(430px, 100%);
-
   height: auto;
   border-radius: 10px;
   box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
@@ -432,19 +393,14 @@ a:visited:hover {
 }
 
 .projImgs {
-  /* width: 430px; */
   width: min(430px, 100%);
   height: 215px;
-
-  /* height: min(215px, 100%); */
-
   border-radius: 10px 10px 0 0;
 
 }
 
 .projText {
   margin-top: -5px;
-  /* padding: 20px 35px; */
   padding: min(20px, 100%) min(35px, 100%);
  
   text-align: justify;
@@ -467,10 +423,7 @@ a:visited:hover {
 }
 
 .techRow+div {
-  /* font-size: 1rem; */
   font-size: clamp(0.8rem, 1vw, 1rem);
-
-
 }
 
 .techUsed {
@@ -479,12 +432,8 @@ a:visited:hover {
   background-color: var(--primary-color);
   color: var(--tertiary-color);
   font-weight: 800;
-  /* border: 3px solid var(--primary-color); */
-
   border: min(3px, 100%) solid var(--primary-color);
-
   padding: 5px 6px;
-  /* padding: 5px min(10px, 100%); */
 }
 
 .projBtnWrapper {
@@ -496,9 +445,7 @@ a:visited:hover {
 
 .projBtn {
   padding: 10px 20px;
-  /* font-size: 1rem; */
   font-size: clamp(0.7rem, 0.8vw, 1rem);
-
   font-weight: 700;
   color: var(--primary-color);
   border-radius: 10px;
@@ -529,32 +476,23 @@ a:visited:hover {
 
 .contactTitle {
   padding-top: 30px;
-
-  /* font-size: 3rem; */
   font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 .aboutWrapper {
-  /* font-size: 1.6rem; */
-
   font-size: clamp(1rem, 3vw, 1.6rem);
   width: 46%;
   text-align: justify;
 }
 
 .about {
-  padding-bottom: 30px;
-
-  /* font-size: 1.8rem; */
+  padding-bottom: 20px;
   font-size: clamp(1.2rem, 3vw, 1.8rem);
-
   font-weight: 600;
 }
 
 .aboutPara {
   line-height: 200%;
-
-  
 }
 
 .contactTextWrapper {
@@ -563,19 +501,14 @@ a:visited:hover {
 
 .connectDiv {
   display: flex;
-  padding: 200px 0 50px 0;
+  padding-top: 150px;
   justify-content: space-evenly;
-
-  /* font-size: 3.8rem; */
   font-size: clamp(2rem, 3vw, 3.8rem);
-
   gap: 50px;
 }
 
 .email {
   padding: 30px 0;
-  
-  /* font-size: 1.8rem; */
   font-size: clamp(1.1rem, 3vw, 1.8rem);
 
   font-weight: 600;
@@ -584,10 +517,7 @@ a:visited:hover {
 
 .connectBtn {
   padding: 16px 47px;
-
-  /* font-size: 1.8rem; */
   font-size: clamp(1.1rem, 3vw, 1.8rem);
-
   color: var(--primary-color);
   font-weight: 600;
   border: none;
@@ -611,11 +541,6 @@ a:visited:hover {
   position: relative;
   padding-top: 280px;
   transform: translate(-50%, -50%);
-
-  /* transform: translate(-90%, 10%); */
-
-  /* width: 300px; */
-
 }
 
 #steam {
@@ -670,10 +595,7 @@ a:visited:hover {
 
 .cup-body {
   position: absolute;
-
   width: 100%;
-  /* width: min(300px, 100%); */
-
   height: 200px;
   background-color: #9e4444;
   border-radius: 0 0 150px 150px;
@@ -761,7 +683,6 @@ a:visited:hover {
   /* media queries */
 @media all and (max-width: 980px) {
   .startText {
-    /* padding: 0 120px 200px 120px; */
     padding: 0 80px 200px 80px;
     width: min(300px, 100%);
   }
@@ -789,11 +710,6 @@ a:visited:hover {
   .iconText {
     width: 20px;
   }
-
-  .aboutWrapper {
-    width: 100%;
-  }
-
   
 }
 
@@ -803,16 +719,32 @@ a:visited:hover {
     gap: 25px;
   }
 
-  .aboutWrapper {
-    width: 100%;
-  }
-
   #coffeeWrap {
     display: none;
   }
 }
 
 @media all and (max-width: 1500px) {
+
+  a {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+  }
+
+  .startText {
+    font-size: 2.7rem;
+  }
+
+  .projBtn {
+    padding: 10px 15px;
+  }
+
+  .aboutWrapper {
+    width: 100%;
+  }
+
+  .connectDiv {
+    padding-bottom: 80px;
+  }
   
   #coffeeWrap {
     display: none;
@@ -830,8 +762,6 @@ a:visited:hover {
       transform: translateX(0%);
     }
   }
-
-
 }
 
   /*  */
