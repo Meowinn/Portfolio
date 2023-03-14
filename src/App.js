@@ -6,7 +6,7 @@ import Home from './components/home';
 const App = () => {
   return(
     <div id='app'>
-      <BrowserRouter basename='Portfolio_v1.2'>
+      <BrowserRouter basename='Portfolio'>
       <Routes>
         <Route exact path='/' element={<Home />}></Route>
       </Routes>

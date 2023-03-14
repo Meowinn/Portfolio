@@ -2,7 +2,7 @@
   "name": "portfolio_v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Meowinn.github.io/Portfolio_v1.2",
+  "homepage": "https://Meowinn.github.io/Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
