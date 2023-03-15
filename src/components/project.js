@@ -4,15 +4,12 @@ import React from 'react';
 const ProjectSection = () => {
     return (
         <div id="projectSection">
-
             <div>
                 <div id="projTitle"><span className="highlight">Projects</span></div>
                 <div className="projDescrip">100% home-grown code, I built these sites from the ground up!</div>
             </div>
 
-
             <div className="projRow">
-
                 <div className="projWrapper">
                     <div className="projImgWrapper"><img className="projImgs" src={require('../imgs/project_shopping.png')} alt='shopping_cart.jpg'></img></div>
 
@@ -95,7 +92,7 @@ const ProjectSection = () => {
                             <div className="techUsed">JSON</div>
                         </div>
 
-                        <div>In this project I used OpenWeatherMap API then worked with the JSON data to display it accordingly. I also added the feature to show data in either celsius or farenheit.</div>
+                        <div>I utilized OpenWeatherMap API in this project then worked with the JSON data to display it accordingly. I also added the feature to show data in either celsius or farenheit.</div>
 
                         <div className="projBtnWrapper">
                             <a href="https://meowinn.github.io/project-weather_App/"><button className="projBtn" type="button">Live Demo</button></a>

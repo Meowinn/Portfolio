@@ -320,7 +320,7 @@ a:visited:hover {
   display: flex;
   justify-content: center;
   padding: 65px 0;
-  gap: min(300px, 20%);
+  gap: min(218px, 20%);
 }
 
 .skillIcons:hover {
@@ -339,8 +339,6 @@ a:visited:hover {
 
 .skillImgs {
   width: clamp(20px, 5vw, 120px);  
-
-
   filter: var(--filter);
 }
 
@@ -375,12 +373,12 @@ a:visited:hover {
   align-items: center;
   background-color: var(--tertiary-color);
   padding: 15px 30px;
-  gap: min(110px, 5%);
+  gap: min(50px, 5%);
 
 }
 
 .projWrapper {
-  width: min(430px, 100%);
+  width: min(330px, 100%);
   height: auto;
   border-radius: 10px;
   box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
@@ -393,23 +391,22 @@ a:visited:hover {
 }
 
 .projImgs {
-  width: min(430px, 100%);
-  height: 215px;
+  width: min(330px, 100%);
+  height: 180px;
   border-radius: 10px 10px 0 0;
 
 }
 
 .projText {
   margin-top: -5px;
-  padding: min(20px, 100%) min(35px, 100%);
- 
+  padding: min(15px, 100%) min(35px, 100%);
   text-align: justify;
   background-color: var(--projText);
   border-radius: 0 0 10px 10px;
 }
 
 .workTitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   padding-bottom: 10px;
 }
@@ -418,17 +415,15 @@ a:visited:hover {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-bottom: 20px;
- 
+  padding-bottom: 15px;
 }
 
 .techRow+div {
-  font-size: clamp(0.8rem, 1vw, 1rem);
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
 }
 
 .techUsed {
   font-size: 0.7rem;
-
   background-color: var(--primary-color);
   color: var(--tertiary-color);
   font-weight: 800;
@@ -439,13 +434,13 @@ a:visited:hover {
 .projBtnWrapper {
   display: flex;
   gap: 25px;
-  padding: 25px 0 10px 0px;
+  padding: 20px 0 10px 0px;
   
 }
 
 .projBtn {
-  padding: 10px 20px;
-  font-size: clamp(0.7rem, 0.8vw, 1rem);
+  padding: 8px 15px;
+  font-size: clamp(0.7rem, 0.8vw, 0.9rem);
   font-weight: 700;
   color: var(--primary-color);
   border-radius: 10px;
@@ -469,8 +464,6 @@ a:visited:hover {
   background-color: var(--alternate);
   color: var(--primary-color);
   box-shadow: 0 20px 100px rgb(0 0 0 / 0.2);
-
-  /* padding: 30px 350px; */
   padding: 30px min(350px, 10%);
 }
 
@@ -480,8 +473,11 @@ a:visited:hover {
 }
 
 .aboutWrapper {
-  font-size: clamp(1rem, 3vw, 1.6rem);
+  font-size: clamp(1rem, 3vw, 1.3rem);
   width: 46%;
+  /* padding-left: 200px; */
+  padding: 0 min(200px, 20%);
+  
   text-align: justify;
 }
 
@@ -496,7 +492,7 @@ a:visited:hover {
 }
 
 .contactTextWrapper {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .connectDiv {
@@ -692,19 +688,16 @@ a:visited:hover {
   }
 
   .aboutText {
-    width: 210px;
+    width: 250px;
+    
   }
 
   #skillsSection {
-    padding: 50px 80px;
-  }
-
-  #projectSection {
-    padding: 50px 80px;
+    padding: 50px 70px;
   }
 
   #contactSection {
-    padding: 50px 80px;
+    padding: 50px 70px;
   }
 
   .iconText {
@@ -715,7 +708,8 @@ a:visited:hover {
 
 @media all and (max-width: 1200px) {
   .projRow {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
     gap: 25px;
   }
 
@@ -740,6 +734,7 @@ a:visited:hover {
 
   .aboutWrapper {
     width: 100%;
+    padding: 0 min(200px, 0%);
   }
 
   .connectDiv {
