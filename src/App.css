@@ -319,13 +319,15 @@ a:visited:hover {
 .skillsRow {
   display: flex;
   justify-content: center;
-  padding: 65px 0;
-  gap: min(218px, 20%);
+  align-items: center;
+  padding: 65px 10px;
+  gap: min(200px, 100%);
 }
 
 .imgWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .skillIcons:hover {
@@ -347,6 +349,7 @@ a:visited:hover {
   width: clamp(20px, 5vw, 120px);  
   filter: var(--filter);
 }
+
 
 .skillImgs:hover {
   cursor: pointer;

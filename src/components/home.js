@@ -47,11 +47,11 @@ const Home = () => {
                         <div >Hi, I'm Darwin | <span className="positionText">Aspiring Web</span> <br /><span className="positionText">Developer</span></div>
                         <div className="iconRow">
                             <a href="https://github.com/Meowinn" className="startIconLink"><img className="startIcons" src={require('../imgs/github.png')} alt="gitHub_logo"></img></a>
-                            <a href="https://www.linkedin.com/" className="startIconLink"><img className="startIcons" src={require('../imgs/linkedin-logo.png')} alt='linkedin_logo'></img></a>
+                            <a href="https://www.linkedin.com/in/darwin-fagarang/" className="startIconLink"><img className="startIcons" src={require('../imgs/linkedin-logo.png')} alt='linkedin_logo'></img></a>
                             <a href="mailto:darwinfagarang@gmail.com" className="startIconLink"><img className="startIcons" src={require('../imgs/gmail-logo.png')} alt='gmail_logo'></img></a>
                         </div>
                         <div className="aboutText">I love building and designing. I'm a life-long learner and I might have a thing for shawarma</div>
-                        <a href="https://drive.google.com/u/0/uc?id=1if6juzp52xovgsYdyACCrpoQ_NPBBnT9&export=download"><button className="dlBtn" type="button">Download CV</button></a>
+                        <a href="https://drive.google.com/uc?id=168YATp3Gcn5KQkts27Qk_lK7kcGLAUFu&export=download"><button className="dlBtn" type="button">Download CV</button></a>
                     </div>
 
                 </div>

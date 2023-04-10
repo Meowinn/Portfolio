@@ -35,7 +35,7 @@ const SkillSection = () => {
                     <div className="imgWrapper"><img id="vs" className="skillImgs" src={require('../imgs/vs.png')} alt='vsCodeLogo'></img></div><div className="iconText">VS Code</div>
                 </div>
                 <div className="skillIcons">
-                    <div className="imgWrapper"><img className="skillImgs" src={require('../imgs/terminal.png')} alt='commandLineLogo'></img></div><div className="iconText">Command Line</div>
+                    <div className="imgWrapper"><img className="skillImgs cmdLine" src={require('../imgs/terminal.png')} alt='commandLineLogo'></img></div><div className="iconText">Command Line</div>
                 </div>
             </div>
 
