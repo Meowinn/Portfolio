@@ -1,25 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.311ce2de.css",
-    "main.js": "/Portfolio/static/js/main.d91513a2.js",
+    "main.css": "/Portfolio/static/css/main.c0aef8bb.css",
+    "main.js": "/Portfolio/static/js/main.b39d7c20.js",
     "static/media/project_shopping.png": "/Portfolio/static/media/project_shopping.2647d75d462ef0e33dd5.png",
     "static/media/project_memory.png": "/Portfolio/static/media/project_memory.b6bd385a9b7c6e671970.png",
     "static/media/project_resto.png": "/Portfolio/static/media/project_resto.2f068cdc43ed44cc30e9.png",
     "static/media/project_weather.png": "/Portfolio/static/media/project_weather.289bd76e337fbf4916c7.png",
     "static/media/project_cv.png": "/Portfolio/static/media/project_cv.e3df3eeb1165b691740b.png",
     "static/media/project_todo_app.png": "/Portfolio/static/media/project_todo_app.c0b176163f32400ec715.png",
-    "static/media/vs.png": "/Portfolio/static/media/vs.b6fa4aeb8144e6b69e31.png",
-    "static/media/react.png": "/Portfolio/static/media/react.52de6422409ad1571d1f.png",
-    "static/media/github.png": "/Portfolio/static/media/github.f11021803f68852df283.png",
-    "static/media/git.png": "/Portfolio/static/media/git.848d8eb4034119060c76.png",
-    "static/media/css-3.png": "/Portfolio/static/media/css-3.7654ce00c5ac2e76e015.png",
-    "static/media/html.png": "/Portfolio/static/media/html.31497a13d5b51cea9b7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.311ce2de.css.map": "/Portfolio/static/css/main.311ce2de.css.map",
-    "main.d91513a2.js.map": "/Portfolio/static/js/main.d91513a2.js.map"
+    "main.c0aef8bb.css.map": "/Portfolio/static/css/main.c0aef8bb.css.map",
+    "main.b39d7c20.js.map": "/Portfolio/static/js/main.b39d7c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.311ce2de.css",
-    "static/js/main.d91513a2.js"
+    "static/css/main.c0aef8bb.css",
+    "static/js/main.b39d7c20.js"
   ]
 }
