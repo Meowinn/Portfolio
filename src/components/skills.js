@@ -15,13 +15,13 @@ const SkillSection = () => {
     return (
         <div id="skillsSection" >
 
-            <div className="skillsHeader pb-5">
+            <div className="skillsHeader pb-3 ">
                 <h2><span className="highlight fs-1">Skills & Tools</span></h2>
                 <div className="toolBox py-2">My Toolbox & Things I Can Do</div>
                 <div>The skills, tools and technologies I use to bring your products to life:</div>
             </div>
 
-            <div className='row container-fluid text-center pt-2 pb-4 gy-5'>
+            <div className='row container text-center pt-2 pb-4 gy-4 g-0 skillRow'>
 
                 <div className="skillIcons col-lg-3 col-md-4" data-aos="zoom-in">
                     <div className="imgWrapper"> <FontAwesomeIcon icon={faHtml5} /></div>
