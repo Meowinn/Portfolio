@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 :root {
-  --primary-color: rgb(255, 255, 255);
-  --secondary-color: rgb(241, 106, 65);
-  --tertiary-color: #0d161b;
-  --alternate: #111e27;
-  --projText: #223847;
-  --filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(108%) contrast(102%);
-}
-
-#app {
-  font-family: 'Golos Text', sans-serif;
-}
-
-.lightTheme {
   --primary-color: black;
   --secondary-color: white;
   --tertiary-color: white;
@@ -22,8 +9,21 @@
   --filter:
 }
 
+#app {
+  font-family: 'Golos Text', sans-serif;
+}
+
+.darkTheme {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(241, 106, 65);
+  --tertiary-color: #0d161b;
+  --alternate: #111e27;
+  --projText: #223847;
+  --filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(108%) contrast(102%);
+}
+
 .animateBg {
-  padding: 2% 12% 10%;
+  padding: 2% 15% 10%;
   height: 100vh;
 }
 
@@ -34,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--lightAnimate, linear-gradient(to bottom, #223847, #111e27));
+  background: var(--lightAnimate, linear-gradient(to bottom, skyblue, cornflowerblue));
   z-index: -1;
 }
 
@@ -166,7 +166,6 @@ li:hover {
   background-size: 50px 5px;
 }
 
-
 /* startWrapper */
 
 #startWrapper {
@@ -187,7 +186,7 @@ li:hover {
 }
 
 .positionText:hover {
-  background-size: 200px 20px;
+  background-size: 125px 20px;
 }
 
 .col-1 {
@@ -230,7 +229,7 @@ li:hover {
 
 #skillsSection {
   color: var(--primary-color);
-  padding: 2% 12% 7%;
+  padding: 2% 20% 7%;
   font-size: 1.4rem;
   background-color: var(--alternate);
 }
@@ -255,7 +254,7 @@ li:hover {
   color: rgb(241, 106, 65);
   font-weight: 600;
   font-size: 1.6rem;
-  padding-bottom: 2%;
+  padding-bottom: 6%;
 }
 
 .skillIcons {
@@ -270,7 +269,7 @@ li:hover {
 
 
 .imgWrapper {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .imgWrapper:hover {
@@ -281,21 +280,14 @@ li:hover {
 
 #projectSection {
   color: var(--primary-color);
-  padding: 2% 12% 7%;
+  padding: 2% 20% 7%;
   font-size: 1.2rem;
   background-color: var(--tertiary-color);
-
-}
-
-.projWrapper {
-  padding: 3% 5% !important;
 }
 
 .card {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  transition: box-shadow 0.2s ease-in-out;
-  /* border: 0 !important; */
-  border: 1px solid transparent !important;
+  background-color: transparent !important;
+  width: 100%;
 }
 
 .card:hover {
@@ -303,7 +295,7 @@ li:hover {
 }
 
 .projImgs {
-  height: 200px;
+  height: 210px;
 }
 
 .techRow {
@@ -313,10 +305,8 @@ li:hover {
   padding-bottom: 15px;
 }
 
-
 .techUsed {
   font-size: 0.7rem;
-  /* font-size: clamp(0.7rem, 1vw, 0.9rem); */
   background-color: var(--primary-color);
   color: var(--tertiary-color);
   font-weight: 800;
@@ -326,12 +316,12 @@ li:hover {
 
 .card-body {
   background-color: var(--projText);
+  border-radius: 2%;
 }
 
 .card-text {
   text-align: justify;
-  font-size: 1rem;
-
+  font-size: 0.9rem;
 }
 
 .projBtn {
@@ -360,7 +350,7 @@ li:hover {
 }
 
 .contactWrapper {
-  padding: 2% 12% 0%;
+  padding: 2% 20% 0%;
   font-size: 1.2rem;
 }
 
@@ -373,7 +363,6 @@ li:hover {
 
 .connectBtn {
   padding: 2% 5%;
-  font-size: clamp(1.2rem, 3vw, 1.4rem);
   color: var(--primary-color);
   font-weight: 600;
   border: none;
@@ -480,7 +469,7 @@ li:hover {
 
 .cup-handle {
   position: relative;
-  right: -25%;
+  right: -10%;
   width: 95px;
   height: 90px;
   border: 15px solid #6e3737;
@@ -541,6 +530,13 @@ li:hover {
   .col-1 {
     padding-right: 9% !important;
   }
+  .skillIcons>div {
+    font-size: 1.5rem;
+  }
+
+  .connectBtn {
+    font-size: 1.1rem;
+  }
 }
 
 /* card */
@@ -549,8 +545,6 @@ li:hover {
   .techUsed {
     font-size: 0.5rem ;
   }
-
-  
 }
 
 @media all and (max-width: 1500px) {
@@ -565,7 +559,6 @@ li:hover {
 
   .haveChat {
     padding-bottom: 8%;
-   
   }
 
   #coffeeWrap {

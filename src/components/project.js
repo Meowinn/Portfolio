@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const ProjectSection = () => {
     return (
         <div id="projectSection">
@@ -9,11 +8,11 @@ const ProjectSection = () => {
                 <div className="toolBox">100% home-grown code, I built these sites from the ground up!</div>
             </div>
 
-            <div className="container-fluid projWrapper">
-                <div className="row align-items-start justify-content-center gx-5 gy-5">
+            <div className="container">
+                <div className="row gx-5 gy-5">
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
-                        <div className="card ">
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                        <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_shopping.png')} alt='shopping_cart.jpg'></img>
                             <div className="card-body px-4 text-justify">
                                 <h5 className="card-title fw-bold">Shopping Website</h5>
@@ -32,7 +31,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_memory.png')} alt='memory_game.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -51,7 +50,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card ">
                             <img className="projImgs card-img-top" src={require('../imgs/project_cv.png')} alt='project_cv.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -71,7 +70,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_weather.png')} alt='weather_app.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -90,7 +89,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_resto.png')} alt='restaurant.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -108,7 +107,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_todo_app.png')} alt='todo_app.jpg'></img>
                             <div className="card-body px-4 text-justify">
