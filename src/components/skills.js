@@ -10,6 +10,7 @@ import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { faServer } from '@fortawesome/free-solid-svg-icons';
+import { faVuejs } from '@fortawesome/free-brands-svg-icons';
 
 const SkillSection = () => {
     return (
@@ -42,6 +43,11 @@ const SkillSection = () => {
                 <div className="skillIcons col-lg-3 col-md-4" data-aos="zoom-in">
                     <div className="imgWrapper"><FontAwesomeIcon icon={faReact} /></div>
                     <div className="iconText">React</div>
+                </div>
+
+                <div className="skillIcons col-lg-3 col-md-4" data-aos="zoom-in">
+                    <div className="imgWrapper"><FontAwesomeIcon icon={faVuejs} /></div>
+                    <div className="iconText">Vue</div>
                 </div>
 
                 <div className="skillIcons col-lg-3 col-md-4" data-aos="zoom-in">
