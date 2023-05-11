@@ -5,13 +5,34 @@ const ProjectSection = () => {
         <div id="projectSection">
             <div>
                 <h2 className='fs-1'><span className="highlight">Projects</span></h2>
-                <div className="toolBox">100% home-grown code, I built these sites from the ground up!</div>
+                <div className="toolBox">List of projects I've built so far</div>
             </div>
 
             <div className="container">
                 <div className="row gx-5 gy-5">
 
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
+                        <div className="card">
+                            <img className="projImgs card-img-top" src={require('../imgs/project_spaceX.png')} alt='spaceX.jpg'></img>
+                            <div className="card-body px-4 text-justify">
+                                <h5 className="card-title fw-bold">SpaceX Launches</h5>
+                                <div className="techRow">
+                                    <div className="techUsed">Vue 3</div>
+                                    <div className="techUsed">Nuxt</div>
+                                    <div className="techUsed">Vuetify</div>
+                                    <div className="techUsed">GraphQL</div>
+                                    <div className="techUsed">Apollo</div>
+                                </div>
+                                <p className="card-text">A project that uses Nuxt Apollo to fetch and manage data from the SpaceX GraphQL API. Both the filtering and sorting logic are composables so I can reuse stateful logic.  </p>
+                                <div className="projBtnWrapper">
+                                    <a href="https://meowinn-spacex-launches.netlify.app/" className='pe-3'><button className="projBtn" type="button">Live Demo</button></a>
+                                    <a href="https://github.com/Meowinn/apollo_spaceX"><button className="projBtn" type="button">Source Code</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_shopping.png')} alt='shopping_cart.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -31,7 +52,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                    <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_memory.png')} alt='memory_game.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -50,7 +71,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                    <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card ">
                             <img className="projImgs card-img-top" src={require('../imgs/project_cv.png')} alt='project_cv.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -70,7 +91,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                    <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_weather.png')} alt='weather_app.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -89,7 +110,7 @@ const ProjectSection = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
+                    <div className='col-lg-6 col-sm-12 px-4' data-aos="zoom-in">
                         <div className="card">
                             <img className="projImgs card-img-top" src={require('../imgs/project_resto.png')} alt='restaurant.jpg'></img>
                             <div className="card-body px-4 text-justify">
@@ -102,24 +123,6 @@ const ProjectSection = () => {
                                 <div className="projBtnWrapper">
                                     <a href="https://meowinn.github.io/project-restaurant_webpack/" className='pe-3'><button className="projBtn" type="button">Live Demo</button></a>
                                     <a href="https://github.com/Meowinn/TOP-Restaurant_Webpack"><button className="projBtn" type="button">Source Code</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='col-lg-4 col-md-6 col-sm-12 px-4' data-aos="zoom-in">
-                        <div className="card">
-                            <img className="projImgs card-img-top" src={require('../imgs/project_todo_app.png')} alt='todo_app.jpg'></img>
-                            <div className="card-body px-4 text-justify">
-                                <h5 className="card-title fw-bold">Todo List App</h5>
-                                <div className="techRow">
-                                    <div className="techUsed">HTML</div>
-                                    <div className="techUsed">JS</div>
-                                </div>
-                                <p className="card-text">A CRUD project that was completed by using JavaScript with different modules compiled by webpack. This project helped me reinforce JS topics like factory functions.</p>
-                                <div className="projBtnWrapper">
-                                    <a href="https://meowinn.github.io/project-todo-list/" className='pe-3'><button className="projBtn" type="button">Live Demo</button></a>
-                                    <a href="https://github.com/Meowinn/TOP-Todo-list"><button className="projBtn" type="button">Source Code</button></a>
                                 </div>
                             </div>
                         </div>
